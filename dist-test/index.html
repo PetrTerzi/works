@@ -96,28 +96,28 @@
                   </div>
                 </div>
                 <div class="zero-wrapper__arrows">
-                  <div class="up-to-arrows-svg-box">
-                    <svg class="up-to-arrows-svg-box__svg" xmlns="http://www.w3.org/2000/svg">
+                  <div class="up-to-arrows-svg-box up-to-svg-box1">
+                    <svg class="up-to-arrows-svg-box__svg up-to-svg-box1__svg" xmlns="http://www.w3.org/2000/svg">
                       <use xlink:href="/i/icons/arrow-icon.svg#white_arrow" />
                     </svg>
                   </div>
-                  <div class="up-to-arrows-svg-box white-arrow">
-                    <svg class="up-to-arrows-svg-box__svg white-arrow__svg" xmlns="http://www.w3.org/2000/svg">
+                  <div class="up-to-arrows-svg-box up-to-svg-box2">
+                    <svg class="up-to-arrows-svg-box__svg up-to-svg-box2__svg" xmlns="http://www.w3.org/2000/svg">
                       <use xlink:href="/i/icons/arrow-icon.svg#white_arrow" />
                     </svg>
                   </div>
-                  <div class="up-to-arrows-svg-box">
-                    <svg class="up-to-arrows-svg-box__svg" xmlns="http://www.w3.org/2000/svg">
+                  <div class="up-to-arrows-svg-box up-to-svg-box3">
+                    <svg class="up-to-arrows-svg-box__svg up-to-svg-box3__svg" xmlns="http://www.w3.org/2000/svg">
                       <use xlink:href="/i/icons/arrow-icon.svg#white_arrow" />
                     </svg>
                   </div>
-                  <div class="up-to-arrows-svg-box">
-                    <svg class="up-to-arrows-svg-box__svg" xmlns="http://www.w3.org/2000/svg">
+                  <div class="up-to-arrows-svg-box up-to-svg-box4">
+                    <svg class="up-to-arrows-svg-box__svg up-to-svg-box4__svg" xmlns="http://www.w3.org/2000/svg">
                       <use xlink:href="/i/icons/arrow-icon.svg#white_arrow" />
                     </svg>
                   </div>
-                  <div class="up-to-arrows-svg-box">
-                    <svg class="up-to-arrows-svg-box__svg" xmlns="http://www.w3.org/2000/svg">
+                  <div class="up-to-arrows-svg-box up-to-svg-box5">
+                    <svg class="up-to-arrows-svg-box__svg up-to-svg-box5__svg" xmlns="http://www.w3.org/2000/svg">
                       <use xlink:href="/i/icons/arrow-icon.svg#white_arrow" />
                     </svg>
                   </div>
@@ -132,13 +132,13 @@
               <!--  -->
               <div class="awaits">
                 <div class="zero-wrapper__arrows">
-                  <div class="up-to-arrows-svg-box">
-                    <svg class="up-to-arrows-svg-box__svg" xmlns="http://www.w3.org/2000/svg">
+                  <div class="up-to-arrows-svg-box awaits-svg-box1">
+                    <svg class="up-to-arrows-svg-box__svg awaits-svg-box1__svg" xmlns="http://www.w3.org/2000/svg">
                       <use xlink:href="/i/icons/arrow-icon.svg#white_arrow" />
                     </svg>
                   </div>
-                  <div class="up-to-arrows-svg-box white-arrow">
-                    <svg class="up-to-arrows-svg-box__svg white-arrow__svg" xmlns="http://www.w3.org/2000/svg">
+                  <div class="up-to-arrows-svg-box awaits-svg-box2">
+                    <svg class="up-to-arrows-svg-box__svg awaits-svg-box2__svg" xmlns="http://www.w3.org/2000/svg">
                       <use xlink:href="/i/icons/arrow-icon.svg#white_arrow" />
                     </svg>
                   </div>
@@ -349,7 +349,7 @@
           </div>
         </div>
         <div class="form-wrapper">
-          <form class="reg-form">
+          <form class="reg-form" name="subform">
             <div class="reg-title">
               <div class="reg-title__item">
                 Registration
@@ -357,13 +357,13 @@
             </div>
             <div class="inputs-wrapper">
               <div class="input-box">
-                <input class="input-box__input" type="text" placeholder="Email" required />
+                <input class="input-box__input" type="text" name="input-name" placeholder="Email" />
               </div>
-              <div class="input-box">
-                <input class="input-box__input" type="password" placeholder="Password" required />
+              <div class="input-box password-input-box">
+                <input class="input-box__input" type="password" name="input-name" placeholder="Password" />
               </div>
               <div class="btn-wrapper">
-                <button class="reg-btn">
+                <button class="reg-btn" type="submit">
                   Go-go-go!
                   <!--  -->
                   <div class="btn-arrows sign-up-btn-arrows go-btn-arrows">
@@ -431,5 +431,6 @@
         </footer>
       </div>
     </div>
+    <script src="/js/script.js"></script>
   </body>
 </html>
